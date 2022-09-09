@@ -2,13 +2,13 @@ def print_to_console(parameter):
   print("{} is out of range!".format(parameter))#not testable
   
 def isvalid_temperature(temp,consoleprint):
-  if temp > 0 or temp < 45:
+  if temp > 0 and temp < 45:
     return True
   consoleprint('temperature')
   return False
 
 def isvalid_soc(soc,consoleprint):
-  if soc > 20 or soc < 80:
+  if soc > 20 and soc < 80:
     return True
   consoleprint('soc')
   return False
