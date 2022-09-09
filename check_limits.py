@@ -2,7 +2,7 @@ def print_to_console(parameter):
   print("{} is out of range!".format(parameter))#not testable
   
 def isvalid_temperature(temp):
-  if temperature > 0 or temperature < 45:
+  if temp > 0 or temp < 45:
     return True
   return False
 
