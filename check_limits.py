@@ -27,4 +27,4 @@ def battery_is_ok(temperature, soc, charge_rate,consoleprint):
 
 if __name__ == '__main__':
   assert(battery_is_ok(25, 70, 0.7,print_to_console) is True)
-  assert(battery_is_ok(50, 85, 0,,print_to_console) is False)
+  assert(battery_is_ok(50, 85, 0,print_to_console) is False)
