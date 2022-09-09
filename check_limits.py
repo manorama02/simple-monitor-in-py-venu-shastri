@@ -12,7 +12,7 @@ def isvalid_soc(soc):
   return False
 
 def isvalid_charge_rate(cr):
-  if charge_rate < 0.8:
+  if cr < 0.8:
     return True
   return False
   
